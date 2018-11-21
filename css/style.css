@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #283e4a;
+    overflow: hidden;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+}
+.logo img{
+    max-width: 100%;
+}
+ul {
+    float: right;
+    list-style: none;
+    padding: 10px;
+}
+ul li input{
+    padding: 5px;
+}
+ul li {
+    float: left;
+    display: inline-block;
+    padding: 10px;
+}
+ ul li span a{
+    color: #ffffffba;
+}
+ul li span a:hover{
+    font-size: 18px;
+    color: #fff;
+}
+.signin{padding: 5px 20px;background: #283e4a;border: 2px solid #fff;color: #fff;font-size: 15px;}
+ li .signin:hover{
+
+color: black;
+
+background: #fff;
+}
+.login{
+    
+background: url(../img/64xk850n3a8uzse6fi11l3vmz.jpg);
+    
+background-size: cover;
+    
+height: 100vh;
+    
+position: relative;
+    
+background-repeat: no-repeat;
+}
+.logid{
+    width: 400px;
+    background: #EDF0F3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+.logid .heading{
+    text-align: center;
+    background: #F6F8FA;
+    padding: 10px;
+}
+.logid .heading h1{
+    font-size: 30px;
+}
+.logid .heading p{
+    font-size: 20px;
+}
+.logid span{
+    display: block;
+    padding: 10px 0;
+}
+.logid input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.logid p{
+    text-align: center;
+    color: gray;
+    padding: 10px 0;
+}
+.joinnow{
+        background: #006097;
+    border: 0;
+    border-radius: 4px;
+        color: #fff;
+    font-size: 15px;
+}
+footer{
+    background: #283e4a;
+    overflow: hidden;
+}
+.fln{
+    width: 50%;
+    margin: 0 auto;
+}
+.fln p{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    color: #949090;
+}
+.fln ul{}
+.fln li{}
+.fln .search{
+    background: #283e4a;
+    color: #949292;
+    border: 1px solid#949292;
+}
